@@ -1,0 +1,49 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+/*Reset CSS*/
+body{
+	background: #4767BF;
+}
+.menu{
+	width: 960px;
+	height: 50px;
+/*	background: #2AFF00;*/
+	margin: 20px auto;
+}
+.menu ul{
+	list-style: none;
+	text-align: center;
+}
+.menu ul li{
+	display: inline-block;
+	width: 80px;
+	height: 40px;
+	background: rgba(0,0,0,0.5);
+	margin-left: -4px;
+	line-height: 40px;
+}
+.menu ul li:last-child{
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.menu ul li:first-child{
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+	display: block;
+	transition-duration: 0.2s;
+	border-radius: 10px;
+/*	background: rgba(31,255,237,1.00);*/
+}
+
+.menu ul li a:hover{
+	background: rgba(31,255,237,1.00);
+/*	border-radius: 10px;*/
+}
